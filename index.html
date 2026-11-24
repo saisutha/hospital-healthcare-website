@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaCare Hospital &amp; Medical Sciences Institute | 24/7 Compassionate Care</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top Emergency & Info Header Bar -->
+  <aside class="emergency-bar">
+    <div class="container emergency-container">
+      <div class="emergency-contacts">
+        <span class="emergency-alert-badge">&#128657; 24/7 EMERGENCY &amp; TRAUMA</span>
+        <a href="tel:18005550199" class="hotline-link">Emergency Hotline: <strong>1-800-555-0199</strong></a>
+        <span class="divider">|</span>
+        <span class="ambulance-dispatch">Ambulance Dispatch: <strong>+91 (080) 4567-8900</strong></span>
+      </div>
+      <div class="emergency-meta">
+        <span>&#128205; Medical Center Blvd, Health City</span>
+        <span class="divider">|</span>
+        <span>&#9200; OPD: 8:00 AM - 8:00 PM (Mon-Sat)</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Navigation Header -->
+  <header class="hospital-nav">
+    <div class="container nav-wrap">
+      <a href="#hero" class="brand-logo">
+        <span class="cross-icon">&#10010;</span>
+        <div class="logo-text-group">
+          <span class="brand-name">Nova<span class="brand-accent">Care</span></span>
+          <span class="brand-sub">HOSPITAL &amp; RESEARCH INSTITUTE</span>
+        </div>
+      </a>
+
+      <nav class="nav-links-menu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-item">About Us</a></li>
+          <li><a href="#departments" class="nav-item">Departments</a></li>
+          <li><a href="#services" class="nav-item">Medical Services</a></li>
+          <li><a href="#doctors" class="nav-item">Find a Doctor</a></li>
+          <li><a href="#health-info" class="nav-item">Health Guide</a></li>
+          <li><a href="#emergency" class="nav-item">Emergency</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#booking" class="btn btn-primary">&#128197; Book Appointment</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-text-col">
+          <div class="accreditation-pill">
+            <span class="check-icon">&#10004;</span> JCI &amp; NABH Accredited Multi-Super-Specialty Hospital
+          </div>
+          <h1 class="hero-heading">
+            World-Class Medical Care, <span class="text-teal">Centered Around You</span>
+          </h1>
+          <p class="hero-lead">
+            Combining board-certified medical specialists, cutting-edge diagnostic robotics, and warm bedside compassion to deliver exemplary outcomes for you and your family.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#booking" class="btn btn-primary btn-lg">Book Consultation &rarr;</a>
+            <a href="#departments" class="btn btn-outline-teal btn-lg">Explore Specialties</a>
+          </div>
+
+          <div class="hero-features-strip">
+            <div class="strip-item">
+              <span class="strip-icon">&#9877;</span>
+              <div>
+                <strong>50+ Specialties</strong>
+                <small>Global standard care</small>
+              </div>
+            </div>
+            <div class="strip-item">
+              <span class="strip-icon">&#129302;</span>
+              <div>
+                <strong>Robotic Surgery</strong>
+                <small>Precision minimally invasive</small>
+              </div>
+            </div>
+            <div class="strip-item">
+              <span class="strip-icon">&#9989;</span>
+              <div>
+                <strong>99.4% Recovery</strong>
+                <small>Patient safety record</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-form-col">
+          <!-- Quick Appointment Card -->
+          <div class="quick-booking-card">
+            <div class="card-title-bar">
+              <h3>Fast-Track Appointment</h3>
+              <p>Schedule your in-person or virtual OPD visit in under 60 seconds.</p>
+            </div>
+            <form action="#booking" class="fast-book-form">
+              <div class="input-block">
+                <label for="fastDept">Select Clinical Department</label>
+                <select id="fastDept" required>
+                  <option value="">-- Choose Department --</option>
+                  <option value="cardiology">Cardiology &amp; Heart Health</option>
+                  <option value="neurology">Neurology &amp; Brain Sciences</option>
+                  <option value="pediatrics">Pediatrics &amp; Child Health</option>
+                  <option value="orthopedics">Orthopedics &amp; Joint Surgery</option>
+                  <option value="oncology">Comprehensive Oncology</option>
+                </select>
+              </div>
+              <div class="input-block">
+                <label for="fastDate">Preferred Visit Date</label>
+                <input type="date" id="fastDate" required>
+              </div>
+              <div class="input-block">
+                <label for="fastPhone">Patient Mobile Number</label>
+                <input type="tel" id="fastPhone" placeholder="+91 98765 43210" required>
+              </div>
+              <a href="#booking" class="btn btn-primary btn-block">Find Available Doctors &rarr;</a>
+            </form>
+            <div class="emergency-quick-call">
+              <span>Need critical immediate assistance?</span>
+              <a href="tel:18005550199" class="quick-call-link">&#128222; Call Emergency 1-800-555-0199</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hospital Information / About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-content-grid">
+          <div class="about-image-stack">
+            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=700&q=80" alt="Hospital Building Architecture" class="img-hospital-front">
+            <div class="experience-badge">
+              <span class="exp-num">35+</span>
+              <span class="exp-text">Years of Clinical Excellence</span>
+            </div>
+          </div>
+
+          <div class="about-narrative">
+            <span class="subhead-pill">ABOUT NOVACARE</span>
+            <h2 class="section-title">Setting the Benchmark in Patient-Centered Healing</h2>
+            <p class="narrative-body">
+              Founded in 1991, NovaCare Hospital has grown into a premier tertiary-care academic and clinical powerhouse. With 650 inpatient beds, 18 ultra-modern modular laminar-flow operating theaters, and dedicated specialty ICUs, we provide compassionate and comprehensive clinical care.
+            </p>
+            <div class="values-checklist">
+              <div class="check-item">
+                <span class="check-bullet">&#10003;</span>
+                <div>
+                  <strong>Zero-Infection Safety Protocols</strong>
+                  <p>Certified HEPA filtration in all surgical and intensive care suites.</p>
+                </div>
+              </div>
+              <div class="check-item">
+                <span class="check-bullet">&#10003;</span>
+                <div>
+                  <strong>Comprehensive In-House Diagnostics</strong>
+                  <p>3-Tesla MRI, Dual-Energy CT scanners, and 24/7 automated pathology lab.</p>
+                </div>
+              </div>
+              <div class="check-item">
+                <span class="check-bullet">&#10003;</span>
+                <div>
+                  <strong>Paperless Digital Health Records</strong>
+                  <p>Secure, cloud-synchronized patient histories accessible by your care team.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Medical Departments Section -->
+    <section id="departments" class="departments-section">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="subhead-pill">CENTERS OF EXCELLENCE</span>
+          <h2 class="section-title">Specialized Medical Departments</h2>
+          <p class="section-desc">Our multidisciplinary teams collaborate seamlessly to deliver precise diagnostic insights and personalized treatment.</p>
+        </div>
+
+        <div class="departments-grid">
+          <!-- Dept 1 -->
+          <article class="dept-card">
+            <div class="dept-icon-box bg-red-soft">&#10084;</div>
+            <h3 class="dept-title">Cardiology &amp; Cardiac Surgery</h3>
+            <p class="dept-text">Advanced interventional cath labs, coronary angioplasty, electrophysiology, and open-heart surgical suites operating around the clock.</p>
+            <ul class="dept-bullets">
+              <li>Angiography &amp; Stenting</li>
+              <li>Heart Failure Clinic</li>
+              <li>Pediatric Cardiology</li>
+            </ul>
+            <a href="#booking" class="dept-link">Book Specialist &rarr;</a>
+          </article>
+
+          <!-- Dept 2 -->
+          <article class="dept-card">
+            <div class="dept-icon-box bg-blue-soft">&#129504;</div>
+            <h3 class="dept-title">Neurology &amp; Neurosurgery</h3>
+            <p class="dept-text">Comprehensive brain and spine center treating stroke management, epilepsy, Parkinson's disease, and neurovascular disorders.</p>
+            <ul class="dept-bullets">
+              <li>Rapid Stroke Interventions</li>
+              <li>Micro-Neurosurgery</li>
+              <li>Neuro-Rehabilitation</li>
+            </ul>
+            <a href="#booking" class="dept-link">Book Specialist &rarr;</a>
+          </article>
+
+          <!-- Dept 3 -->
+          <article class="dept-card">
+            <div class="dept-icon-box bg-green-soft">&#128118;</div>
+            <h3 class="dept-title">Pediatrics &amp; Neonatology</h3>
+            <p class="dept-text">Dedicated Level-III Neonatal ICU (NICU), pediatric surgery, adolescent medicine, and developmental growth clinics.</p>
+            <ul class="dept-bullets">
+              <li>24/7 Neonatal Intensive Care</li>
+              <li>Routine Childhood Immunization</li>
+              <li>Pediatric Allergy Clinic</li>
+            </ul>
+            <a href="#booking" class="dept-link">Book Specialist &rarr;</a>
+          </article>
+
+          <!-- Dept 4 -->
+          <article class="dept-card">
+            <div class="dept-icon-box bg-teal-soft">&#129652;</div>
+            <h3 class="dept-title">Orthopedics &amp; Joint Replacement</h3>
+            <p class="dept-text">Pioneers in computer-navigated robotic total knee and hip replacements, arthroscopy, sports injury medicine, and complex spine care.</p>
+            <ul class="dept-bullets">
+              <li>Robotic Joint Arthroplasty</li>
+              <li>Sports Medicine &amp; Ligaments</li>
+              <li>Spine Deformity Correction</li>
+            </ul>
+            <a href="#booking" class="dept-link">Book Specialist &rarr;</a>
+          </article>
+
+          <!-- Dept 5 -->
+          <article class="dept-card">
+            <div class="dept-icon-box bg-purple-soft">&#9877;</div>
+            <h3 class="dept-title">Oncology &amp; Cancer Institute</h3>
+            <p class="dept-text">Holistic surgical, medical, and radiation oncology under one roof, backed by personalized genomic tumor board reviews.</p>
+            <ul class="dept-bullets">
+              <li>Targeted Immunotherapy</li>
+              <li>Linear Accelerator Radiation</li>
+              <li>Palliative Supportive Care</li>
+            </ul>
+            <a href="#booking" class="dept-link">Book Specialist &rarr;</a>
+          </article>
+
+          <!-- Dept 6 -->
+          <article class="dept-card">
+            <div class="dept-icon-box bg-amber-soft">&#128657;</div>
+            <h3 class="dept-title">Emergency &amp; Critical Care</h3>
+            <p class="dept-text">Level-1 trauma center equipped with dedicated triage zones, resuscitation bays, acute toxicology, and immediate CT access.</p>
+            <ul class="dept-bullets">
+              <li>Zero Wait-Time Triage</li>
+              <li>Trauma Resuscitation Unit</li>
+              <li>Mobile ICU Ambulance Fleet</li>
+            </ul>
+            <a href="#emergency" class="dept-link">Emergency Details &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Medical Services Section -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="subhead-pill">CLINICAL FACILITIES</span>
+          <h2 class="section-title">Comprehensive Medical Services</h2>
+          <p class="section-desc">From diagnostic precision to surgical excellence and long-term recovery.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-box">
+            <div class="service-icon">&#128300;</div>
+            <h4>Advanced 3T MRI &amp; CT Diagnostics</h4>
+            <p>High-resolution imaging providing instant digital pathology reports directly to your mobile portal.</p>
+          </div>
+          <div class="service-box">
+            <div class="service-icon">&#128689;</div>
+            <h4>Modular Laminar Operating Theaters</h4>
+            <p>Positive-pressure surgical suites with real-time microscopic surgical guidance systems.</p>
+          </div>
+          <div class="service-box">
+            <div class="service-icon">&#128138;</div>
+            <h4>24/7 In-House Automated Pharmacy</h4>
+            <p>Fully stocked with genuine temperature-controlled medications and doorstep emergency delivery.</p>
+          </div>
+          <div class="service-box">
+            <div class="service-icon">&#128249;</div>
+            <h4>Tele-Consultation Clinic</h4>
+            <p>Consult with premier senior doctors from the comfort of your home via encrypted video sessions.</p>
+          </div>
+          <div class="service-box">
+            <div class="service-icon">&#129658;</div>
+            <h4>Cardiac Intensive Care (CCU)</h4>
+            <p>Specialized unit for acute myocardial infarction, arrhythmias, and post-bypass recovery monitoring.</p>
+          </div>
+          <div class="service-box">
+            <div class="service-icon">&#129304;</div>
+            <h4>Physiotherapy &amp; Rehabilitation</h4>
+            <p>Tailored physical exercise regimens designed by ergonomic and orthopedic rehabilitation experts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Doctor Profiles Section -->
+    <section id="doctors" class="doctors-section">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="subhead-pill">OUR MEDICAL LEADERSHIP</span>
+          <h2 class="section-title">Meet Our Senior Specialists</h2>
+          <p class="section-desc">Renowned medical doctors with international fellowship training and decades of clinical success.</p>
+        </div>
+
+        <div class="doctors-grid">
+          <!-- Doctor 1 -->
+          <article class="doctor-card">
+            <div class="doc-media">
+              <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=500&q=80" alt="Dr. Vikram Sen" class="doc-photo">
+              <span class="doc-dept-badge">Chief of Cardiology</span>
+            </div>
+            <div class="doc-details">
+              <h3 class="doc-name">Dr. Vikram Sen, MD, DM</h3>
+              <p class="doc-credentials">MBBS, MD (Medicine), DM (Cardiology), FACC (USA)</p>
+              <div class="doc-experience">
+                <span>&#9203; 24 Years Experience</span>
+                <span>&bull;</span>
+                <span>5,000+ Surgeries</span>
+              </div>
+              <p class="doc-summary">Specializes in transcatheter aortic valve implantation (TAVI), complex angioplasty, and preventative cardiology.</p>
+              <div class="doc-footer">
+                <span class="doc-timing">OPD: Mon, Wed, Fri (10am - 3pm)</span>
+                <a href="#booking" class="btn btn-outline-teal btn-sm">Consult Doctor</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Doctor 2 -->
+          <article class="doctor-card">
+            <div class="doc-media">
+              <img src="https://images.unsplash.com/photo-1594824813571-638f02614d3f?auto=format&fit=crop&w=500&q=80" alt="Dr. Sunita Kulkarni" class="doc-photo">
+              <span class="doc-dept-badge">Head of Neurology</span>
+            </div>
+            <div class="doc-details">
+              <h3 class="doc-name">Dr. Sunita Kulkarni, MCh</h3>
+              <p class="doc-credentials">MBBS, MS (Surgery), MCh (Neurosurgery), Fellowship (Oxford)</p>
+              <div class="doc-experience">
+                <span>&#9203; 18 Years Experience</span>
+                <span>&bull;</span>
+                <span>3,200+ Surgeries</span>
+              </div>
+              <p class="doc-summary">Leading expert in minimally invasive brain tumor resections, acute ischemic stroke treatment, and spinal reconstruction.</p>
+              <div class="doc-footer">
+                <span class="doc-timing">OPD: Tue, Thu, Sat (11am - 4pm)</span>
+                <a href="#booking" class="btn btn-outline-teal btn-sm">Consult Doctor</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Doctor 3 -->
+          <article class="doctor-card">
+            <div class="doc-media">
+              <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=500&q=80" alt="Dr. Rajesh Nayak" class="doc-photo">
+              <span class="doc-dept-badge">Chief Orthopedic Surgeon</span>
+            </div>
+            <div class="doc-details">
+              <h3 class="doc-name">Dr. Rajesh Nayak, MS, FRCS</h3>
+              <p class="doc-credentials">MBBS, MS (Ortho), FRCS (Glasgow), Fellowship Joint Arthroplasty</p>
+              <div class="doc-experience">
+                <span>&#9203; 21 Years Experience</span>
+                <span>&bull;</span>
+                <span>6,400+ Procedures</span>
+              </div>
+              <p class="doc-summary">Recognized authority in robotic computer-navigated total joint replacements and sports ligament reconstructions.</p>
+              <div class="doc-footer">
+                <span class="doc-timing">OPD: Mon - Sat (9am - 1pm)</span>
+                <a href="#booking" class="btn btn-outline-teal btn-sm">Consult Doctor</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Health Information / Wellness Guide Section -->
+    <section id="health-info" class="health-info-section">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="subhead-pill">PATIENT EDUCATION &amp; WELLNESS</span>
+          <h2 class="section-title">Health Information &amp; Prevention Guides</h2>
+          <p class="section-desc">Practical, physician-reviewed articles to support your family's daily health and wellbeing.</p>
+        </div>
+
+        <div class="articles-grid">
+          <article class="health-card">
+            <div class="health-card-badge">Cardio Health</div>
+            <h3 class="health-card-title">Early Warning Signs of Heart Attack Everyone Should Know</h3>
+            <p class="health-card-text">Recognizing subtle symptoms beyond sudden chest tightness—including unexplained breathlessness, jaw ache, and sudden fatigue.</p>
+            <div class="health-card-meta">
+              <span>By Dr. Vikram Sen &bull; 5 Min Read</span>
+              <a href="#health-info" class="read-link">Read Guide &rarr;</a>
+            </div>
+          </article>
+
+          <article class="health-card">
+            <div class="health-card-badge">Pediatrics</div>
+            <h3 class="health-card-title">Complete 2026 Child Immunization &amp; Nutrition Schedule</h3>
+            <p class="health-card-text">A simple breakdown of vital vaccines from birth to age 12, along with developmental dietary milestones for parents.</p>
+            <div class="health-card-meta">
+              <span>By Pediatric Care Team &bull; 6 Min Read</span>
+              <a href="#health-info" class="read-link">Read Guide &rarr;</a>
+            </div>
+          </article>
+
+          <article class="health-card">
+            <div class="health-card-badge">Orthopedics</div>
+            <h3 class="health-card-title">Ergonomics &amp; Preventing Chronic Spine Pain at the Desk</h3>
+            <p class="health-card-text">Physical therapy exercises and desk height adjustments to prevent cervical spondylosis and lower lumbar strain.</p>
+            <div class="health-card-meta">
+              <span>By Dr. Rajesh Nayak &bull; 4 Min Read</span>
+              <a href="#health-info" class="read-link">Read Guide &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Online Appointment Booking Section -->
+    <section id="booking" class="booking-section">
+      <div class="container">
+        <div class="booking-wrapper">
+          <div class="booking-intro">
+            <span class="subhead-pill">ONLINE APPOINTMENT DESK</span>
+            <h2 class="booking-heading">Schedule Your Consultation</h2>
+            <p class="booking-desc">
+              Book a confirmed consultation with our leading specialists. You will receive an instant confirmation SMS and email with hospital token details.
+            </p>
+
+            <div class="booking-perks">
+              <div class="perk-row">
+                <span class="perk-icon">&#10004;</span>
+                <p>No waiting in queues: priority slot check-in at registration counters.</p>
+              </div>
+              <div class="perk-row">
+                <span class="perk-icon">&#10004;</span>
+                <p>Option for in-person hospital OPD or high-definition encrypted tele-health.</p>
+              </div>
+              <div class="perk-row">
+                <span class="perk-icon">&#10004;</span>
+                <p>Instant digital access to your prescription and diagnostic orders.</p>
+              </div>
+            </div>
+
+            <div class="insurance-box">
+              <strong>Cashless Insurance Partnerships:</strong>
+              <p>We honor all major corporate TPA and health insurance networks with 24/7 on-site billing desks.</p>
+            </div>
+          </div>
+
+          <!-- The Booking Form -->
+          <div class="booking-form-box">
+            <form action="#booking" method="GET" class="hospital-booking-form">
+              <h3 class="form-heading">Patient Consultation Form</h3>
+
+              <div class="form-row-2">
+                <div class="form-field">
+                  <label for="patientName">Patient Full Name <span class="req">*</span></label>
+                  <input type="text" id="patientName" name="patient_name" placeholder="e.g. Ramesh Kumar" required>
+                </div>
+                <div class="form-field">
+                  <label for="patientAge">Patient Age &amp; Gender <span class="req">*</span></label>
+                  <input type="text" id="patientAge" name="patient_age" placeholder="e.g. 42 / Male" required>
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-field">
+                  <label for="patientMobile">Contact Number <span class="req">*</span></label>
+                  <input type="tel" id="patientMobile" name="patient_mobile" placeholder="+91 98765 43210" required>
+                </div>
+                <div class="form-field">
+                  <label for="patientEmail">Email Address</label>
+                  <input type="email" id="patientEmail" name="patient_email" placeholder="patient@example.com">
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-field">
+                  <label for="deptSelect">Department <span class="req">*</span></label>
+                  <select id="deptSelect" name="department" required>
+                    <option value="">-- Choose Department --</option>
+                    <option value="cardio">Cardiology &amp; Cardiac Sciences</option>
+                    <option value="neuro">Neurology &amp; Neurosurgery</option>
+                    <option value="ortho">Orthopedics &amp; Joint Replacement</option>
+                    <option value="pedia">Pediatrics &amp; Child Health</option>
+                    <option value="onco">Comprehensive Oncology</option>
+                    <option value="general">Internal &amp; General Medicine</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <label for="doctorSelect">Consulting Doctor</label>
+                  <select id="doctorSelect" name="doctor">
+                    <option value="any">First Available Senior Specialist</option>
+                    <option value="dr-sen">Dr. Vikram Sen (Cardiology)</option>
+                    <option value="dr-kulkarni">Dr. Sunita Kulkarni (Neurology)</option>
+                    <option value="dr-nayak">Dr. Rajesh Nayak (Orthopedics)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-field">
+                  <label for="visitDate">Preferred Date <span class="req">*</span></label>
+                  <input type="date" id="visitDate" name="visit_date" required>
+                </div>
+                <div class="form-field">
+                  <label for="visitTime">Preferred Time Slot <span class="req">*</span></label>
+                  <select id="visitTime" name="time_slot" required>
+                    <option value="morning">Morning (09:00 AM - 12:00 PM)</option>
+                    <option value="afternoon">Afternoon (12:00 PM - 04:00 PM)</option>
+                    <option value="evening">Evening (04:00 PM - 08:00 PM)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="visitType">Consultation Mode <span class="req">*</span></label>
+                <div class="radio-pill-group">
+                  <label class="radio-label">
+                    <input type="radio" name="consult_mode" value="in_person" checked>
+                    <span>In-Person Hospital Visit</span>
+                  </label>
+                  <label class="radio-label">
+                    <input type="radio" name="consult_mode" value="video">
+                    <span>Tele-Health Video Call</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="symptoms">Brief Reason for Visit / Symptoms</label>
+                <textarea id="symptoms" name="symptoms" rows="3" placeholder="Describe symptoms or ongoing medical conditions..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block btn-lg">
+                Confirm &amp; Generate Appointment Token &rarr;
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Emergency Contacts & Operating Hours -->
+    <section id="emergency" class="emergency-section">
+      <div class="container">
+        <div class="emergency-box">
+          <div class="emergency-grid">
+            <div class="emergency-col">
+              <span class="crit-badge">CRITICAL EMERGENCY</span>
+              <h2>24/7 Rapid Response &amp; Emergency Hub</h2>
+              <p>For acute chest pain, major trauma, stroke symptoms, respiratory distress, or severe poisoning, do not delay. Contact our emergency dispatch immediately.</p>
+              
+              <div class="emergency-numbers">
+                <div class="num-card">
+                  <span class="num-label">Trauma &amp; ER Direct:</span>
+                  <a href="tel:18005550199" class="num-value">1-800-555-0199</a>
+                </div>
+                <div class="num-card">
+                  <span class="num-label">24-Hr Ambulance Fleet:</span>
+                  <a href="tel:08045678900" class="num-value">+91 (080) 4567-8900</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="emergency-col hours-col">
+              <h3>Facility Operating Hours</h3>
+              <ul class="hours-list">
+                <li>
+                  <span>Accident &amp; Emergency Trauma</span>
+                  <strong>24 Hours &bull; 365 Days Open</strong>
+                </li>
+                <li>
+                  <span>Diagnostic Imaging &amp; Pathology</span>
+                  <strong>24 Hours Continuous Service</strong>
+                </li>
+                <li>
+                  <span>Inpatient Pharmacy &amp; Blood Bank</span>
+                  <strong>24 Hours Accessible</strong>
+                </li>
+                <li>
+                  <span>Outpatient (OPD) Consultations</span>
+                  <span>Monday - Saturday: 8:00 AM - 8:00 PM</span>
+                </li>
+                <li>
+                  <span>Visiting Hours for Relatives</span>
+                  <span>Daily: 11:00 AM - 1:00 PM &bull; 5:00 PM - 7:00 PM</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Hospital Footer -->
+  <footer class="hospital-footer">
+    <div class="container footer-content-grid">
+      <div class="footer-brand-col">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="cross-icon">&#10010;</span>
+          <div class="logo-text-group">
+            <span class="brand-name">Nova<span class="brand-accent">Care</span></span>
+            <span class="brand-sub">HOSPITAL &amp; RESEARCH INSTITUTE</span>
+          </div>
+        </a>
+        <p class="footer-tagline">
+          Dedicated to healing, compassionate medical service, and research-driven healthcare innovation since 1991.
+        </p>
+        <div class="cert-row">
+          <span class="cert-chip">&#127942; JCI Gold Seal</span>
+          <span class="cert-chip">&#9989; NABH Certified</span>
+          <span class="cert-chip">&#128300; NABL Accredited Lab</span>
+        </div>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Clinical Departments</h4>
+        <ul>
+          <li><a href="#departments">Cardiology &amp; Cardiac Care</a></li>
+          <li><a href="#departments">Neurology &amp; Neurosurgery</a></li>
+          <li><a href="#departments">Pediatrics &amp; Child Health</a></li>
+          <li><a href="#departments">Orthopedics &amp; Joint Surgery</a></li>
+          <li><a href="#departments">Oncology &amp; Cancer Care</a></li>
+          <li><a href="#emergency">Trauma &amp; Emergency Center</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Patient &amp; Visitors</h4>
+        <ul>
+          <li><a href="#booking">Book Doctor Consultation</a></li>
+          <li><a href="#services">Diagnostics &amp; Health Checks</a></li>
+          <li><a href="#health-info">Wellness &amp; Patient Guides</a></li>
+          <li><a href="#about">Accepted Insurance / TPAs</a></li>
+          <li><a href="#emergency">Hospital Visitor Guidelines</a></li>
+          <li><a href="#about">Patients' Rights &amp; Responsibilities</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Hospital Location</h4>
+        <p class="address-text">
+          NovaCare Medical Campus<br>
+          Plot 42, Health City Avenue, Outer Ring Road<br>
+          Bengaluru, Karnataka - 560100<br><br>
+          <strong>General Desk:</strong> +91 (080) 4567-8000<br>
+          <strong>Email:</strong> care@novacarehospital.example.com
+        </p>
+      </div>
+    </div>
+
+    <div class="container footer-disclaimer-bar">
+      <p>&copy; 2026 NovaCare Hospital &amp; Medical Sciences Institute. Built for HTML &amp; CSS Web Projects Group 3. Pure HTML5 &amp; CSS3.</p>
+      <p class="medical-disclaimer">Medical Disclaimer: The health articles provided are for informational education and should not substitute professional medical advice.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
